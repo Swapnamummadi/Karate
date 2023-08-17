@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM Karate</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        #nav_items{
+            position: absolute;
+            bottom: 500px;
+        }
+        #quote{
+            position: absolute;
+            top: 200px;
+            right: 300px;
+        }
+        #p{
+            position: absolute;
+            left: 490px;
+        }
+        #about{
+            padding:70px 0px;
+            /* background-color: rgb(224, 208, 208); */
+        }
+        #img1{
+          position: relative;
+          left: 85px;
+          bottom: 20px;
+        }
+        #img2{
+          position: relative;
+          left: 85px;
+          bottom: 20px;
+        }
+        #img3{
+          position: relative;
+          left: 85px;
+          bottom: 20px;
+        }
+        #chatbox {
+            width: 300px;
+            height: 100px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./images/R.jpeg" alt="" width="100%" height="600vh" >     
+        <nav class="navbar navbar-expand navbar-dark card-img-overlay text-start " id="nav_items">
+            <div class="container-fluid">
+              <a class="navbar-brand col-5 text-center" href="#" style="color: orange;"><span class="text-success fs-2">SM</span> <span>K</span>arate</a>
+            </div> 
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="col-4 text-center me-5">
+                <ul class="navbar-nav fs-5 fw-semibold">
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="#classes">Classes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="#footer">Contact</a>
+                  </li>
+                </ul>
+                </div>
+              </div>
+        </nav>
+        <div class="card-img-overlay text-dark " id="quote" style="text-align: center;">
+            <marquee class="fw-1500px h2 text-warning">   
+                       IT'S NEVER TOO </marquee>
+            <marquee class="fw-1500px h2 text-success">LATE TO DEFEND YOURSELF</marquee>
+            
+        </div>
+        <!-- about session starts -->
+        <div id="about" class="row container-fluid " style="background-color: azure;">
+            <div class="col-5 ps-5 pt-5 fs-5" id="text">
+                
+                <span class="text-danger"> <span class=" display-6 fst-4">ENCOURAGE YOUR KID'S To LEARN...</span></span><br>
+                 <p class="fs-6">
+                    This institute was started at Telangana in 2010. 
+                    The main moto of this institute is to teach about the karate with small kids to all gentlemen and women.
+                    In this institute we teaches all kinds of karate to defend themselves.
+                 </p>
+                 <ul class="fs-6">
+                    <li>Basic Defence</li>
+                    <li>Brazilian Jiu-Jitsu</li>
+                    <li>Muay Thai</li>
+                    <li>Taekwondo</li>
+                    <li>Shotokan</li>
+                 </ul>
+              
+            </div>
+            <div class="col-7" id="img1">
+                <img src="./images/R (1).jpeg" class="rounded-pill " alt="" width="90%" height="80%">
+            </div>
+      
+        </div>
+        <section>
+            <h2 class="text-success" style="text-align: center;">Our Teachers</h2>
+            <div class="m-5 p-5">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card rounded-pill h-90 w-75 bg-info">
+                    <img src="./images/black.png" class="card-img-top w-25 h-25 rounded-circle" alt="..." id="img1">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Swapna Mummadi</h5>
+                      <p class="card-text">Great instructor Swapna completed her karate course at AP IIIT RGUKT RK Valley. She teaches the course with disciplanary. </p>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-success mx-auto d-block">More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-pill bg-secondary w-75 h-90">
+                    <img src="./images/WhatsApp Image 2023-08-12 at 09.09.19.jpg" class="card-img-top w-25 h-25 rounded-circle " alt="..." id="img2">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Lakshmi</h5>
+                      <p class="card-text">Great instructor lakshmi completed her karate course at AP IIIT RGUKT RK Valley. She teaches the course with disciplanary.</p>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-dark mx-auto d-block">More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-pill bg-warning h-100 w-75">
+                    <img src="./images/WhatsApp Image 2023-08-12 at 09.17.50.jpg" class="card-img-top w-25 h-25 rounded-circle" alt="..." id="img3">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Swathi</h5>
+                      <p class="card-text">Great instructor Swathi completed her karate course at AP Nagarjuna karate institute. She teaches the course with disciplanary.</p>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-success mx-auto d-block">More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            </section>
+            <!-- classes -->
+              <div class="p-5 container-fluid" style="background-color: rgb(229, 230, 231);">
+                  <h1 class="text-center text-success" id="classes">Classes we provided</h1>
+                  <div class="row m-5 justify-content-around">
+                      <div class="col-4">
+                              <img src="./images/bigstock-Demonstration-Of-Japanese-Tra-105685946-480x493.jpg" alt="" class="effect" height="200px" width="290px"width="290px"width="290px" width="300px">
+                              <p class="display-6 fs-4 text-center mt-4 ">Tenalfi Dojo</p>
+                              <p class="text-center text-success">₹5000 per year</p>
+                              <p class="text-center text-success">Schedule: 8AM to 5PM</p>
+                      </div> 
+                      <div class="col-4">
+                          <img src="./images/R (1).jpeg" alt="" class="effect" height="200px" width="290px">
+                          <p class="display-6 fs-4 text-center mt-4 ">Katas</p>
+                          <p class="text-center text-success">₹5000 per year</p>
+                          <p class="text-center text-success">Schedule: 8AM to 5PM</p>
+
+                      </div>
+                      <div class="col-4">
+                          <img src="./images/GReque.jpg" alt="" class="effect" height="200px" width="290px">
+                          <p class="display-6 fs-4 text-center mt-4 ">Shukoka</p>
+                          <p class="text-center text-success">₹5000 per year</p>
+                          <p class="text-center text-success">Schedule: 8AM to 5PM</p>
+
+                      </div>
+                       
+                      <div class="col-6">
+                        <img src="./images/OIP (1).jpeg" alt="" class="effect" height="200px" width="300px">
+                        <p class="display-6 fs-4 text-start mt-5 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Taekwondo</p>
+                        <p class="text-start text-success">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹5000 per year</p>
+                        <p class="text-start text-success">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schedule: 8AM to 5PM</p>
+                </div> 
+                <div class="col-6">
+                    <img src="./images/brazilian-jiu-jitsu-gi-karate-jujutsu-judo-png-favpng-N6sGQS9r4d6sneAHqrK4Vx2v4.jpg" alt="" class="effect" height="200px" width="300px">
+                    <p class="display-6 fs-4 text-start mt-4 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brazilian Jiu-Jitsu</p>
+                    <p class="text-start text-success ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;₹5000 per year</p>
+                    <p class="text-start text-success">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schedule: 8AM to 5PM</p>
+
+                </div>   
+                  </div>
+                  <!-- chat container -->
+                  <!-- chat container close -->
+                  <div class="container mt-5">
+                  <div class="card">
+                    <div class="card-body" id="chat-box">
+                      <!-- Messages will be displayed here -->
+                    </div>
+                    <div class="card-footer">
+                      <input type="text" class="form-control" id="message-input" placeholder="Type your message...">
+                    <button class="btn btn-primary mt-2" id="send-button">Send</button>
+                </div>
+            </div>
+          </div>
+        <!-- contact form -->
+<p class="text-center fw-semibold mt-4 display-5 text-success p-5 " id="Form">Form Details</p>
+<div id="styling" class="d-flex" style="width:800px; margin-left: 170px;">
+    
+<div class="container-fluid " style="width:500px">   
+<form class="row ">
+    <div class="col-md-8 pb-2">
+      <label for="validationServer01" class="form-label text-success">First name</label>
+      <input type="text" class="form-control text-light" id="validationServer01" placeholder="first name"required>
+    </div>
+
+    <div class="col-md-8 pb-2">
+        <label for="validationServer02" class="form-label text-success">Last name</label>
+        <input type="text" class="form-control" id="validationServer02" placeholder="last name" required>
+    </div>
+
+    <div class="col-md-8 pb-2">
+        <label for="inputEmail4" class="form-label text-success">Email</label>
+        <input type="email" class="form-control" placeholder="email" id="inputEmail4">
+    </div>
+
+    <div class="col-md-8 pb-2">
+      <label for="validationServer01" class="form-label text-success">Phone No</label>
+      <input type="tel" class="form-control" id="validationServer01" required>
+    </div>
+
+    <div class="col-md-8 pb-2">
+        <label for="validationServer01" class="form-label text-success">book slot from</label>
+        <input type="date" class="form-control" id="validationServer01" required>
+    </div>
+    <div class="col-12 pb-2 pt-3">
+        <button class="btn btn-primary py-4" type="submit">Submit form</button>
+    </div>
+</form>
+</div> 
+<div>
+    <img src="./images/online-registration-form-and-sign-in-button-concept-illustration-login-illustration-online-registration-illustrations-free-vector.jpg" alt="" width="400px" height="500px">
+</div>
+
+</div> 
+
+<!-- footer -->
+<section class="d-flex justify-content-evenly p-4 border-bottom pt-5 bg-info" id="footer">
+    <div class="me-5">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <div class="d-flex">
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+          <i class="bi bi-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+          <i class="bi bi-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+          <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+          <i class="bi bi-github"></i>
+      </a>
+    </div>
+  </section>
+
+  <div class="container-fluid text-center text-md-start pt-5 bg-info">
+    <div class="row mt-3">
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase text-center fw-bold mb-4">
+          SM Karate
+        </h6>
+        <p>
+          A good place to learn and implement the Karate.
+        </p>
+      </div>
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4 ">
+         About
+        </h6>
+        <p>
+          <a href="#!" class="text-reset text-decoration-none">Home</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset text-decoration-none">About</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset text-decoration-none">Contact</a>
+        </p>
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">
+          Useful links
+        </h6>
+        <p>
+          <a href="#!" class="text-reset text-decoration-none">Pricing</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset text-decoration-none">Settings</a>
+        </p>
+        <p>
+          <a href="#!" class="text-reset text-decoration-none">Help</a>
+        </p>
+      </div>
+      
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+       
+        <h6 class="text-uppercase fw-bold mb-4 text-center">Contact</h6>
+        <p><i class="bi bi-house-door-fill"></i>Hyderabad-500072</p>
+        <p>
+            <i class="bi bi-envelope-fill"></i>
+          smkarate@gmail.com
+        </p>
+        <p><i class="bi bi-telephone-fill"></i> + 91 87903 23694</p>
+        <p><i class="bi bi-telephone-fill"></i> + 91 98850 51045</p>
+      </div>
+
+    </div>
+   
+  </div>
+
+<div class="text-center p-4" style="background-color: rgba(182, 82, 82, 0.05);">
+  © 2023 Copyright:
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
